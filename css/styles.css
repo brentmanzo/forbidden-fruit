@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+@font-face {
+    font-family: objectivity;
+    src: url(../assets/font/Objectivity/Objectivity-Regular.otf);
+}
+* {
+    border-radius: 0 !important;
+}
+
+body {
+    font-family: objectivity;
+    color: white;
+}
+
+#mainNav {
+    padding-top: 45px;
+}
+
+.navbar {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a {
+    color: white !important;
+}
+
+a:hover {
+    color: #d4c521 !important;
+    
+} 
+
+.bg-image {
+    position: relative;
+    background-size: cover;
+}
+
+#homeLogo {
+    height: auto;
+    width: 33%;
+    padding-bottom: 0px;
+}
+
+#homeContainer {
+    padding-left: 105px;
+    padding-top: 55px;
+    font-size: 12.5px;
+    font-weight: 600;
+}
+
+.title-text {
+    padding-top: 10px;
+    padding-left: 65px;
+    padding-right: 58%;
+    line-height: 1.2;
+}
+
+.button-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn {
+    padding: 5px 13px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+#mtcMain {
+    position: absolute;
+    z-index: -1;
+}
+
+
+
