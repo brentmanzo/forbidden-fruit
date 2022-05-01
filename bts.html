@@ -10,45 +10,249 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
     <!-- Core theme CSS-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
-    <div class="bg-image" style="
-    background-image: url(assets/img/bg-home.jpg);
-    height: 100vh;
-    ">
+    <div>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4">
+        <nav class="navbar navbar-expand-lg py-lg-4">
             <div class="container" id="mainNav">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-3"><a class="nav-link text-uppercase" href="about.html">About the
+                        <li class="nav-item px-lg-3"><a class="bts-nav nav-link text-uppercase" href="about.html">About
+                                the
                                 film</a>
                         </li>
-                        <li class="nav-item px-lg-3"><a class="nav-link text-uppercase" href="bts.html">Behind the
+                        <li class="nav-item px-lg-3"><a class="bts-nav nav-link text-uppercase" href="bts.html">Behind
+                                the
                                 scenes</a></li>
-                        <li class="nav-item px-lg-3"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
-                        <li class="nav-item px-lg-3"><a class="nav-link text-uppercase" href="crew.html">Meet the
+                        <li class="nav-item px-lg-3"><a class="bts-nav nav-link text-uppercase"
+                                href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-3"><a class="bts-nav nav-link text-uppercase" href="crew.html">Meet
+                                the
                                 crew</a>
                         </li>
-                        <li class="nav-item px-lg-3"><a class="nav-link text-uppercase" href="projects.html">Multimedia
+                        <li class="nav-item px-lg-3"><a class="bts-nav nav-link text-uppercase"
+                                href="projects.html">Multimedia
                                 projects</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <!-- BTS Video -->
+        <div class="bts-vid-container col-md-8 mx-auto">
+            <img src="assets/img/video-placeholder.png" class="card-img-top" alt="BTS video">
+        </div>
+        <!-- BTS Video -->
+
+        <!-- Gallery -->
+        <div class="bts-img-container row">
+            <!-- Column 1 -->
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <a href="assets/img/ls-1.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-1.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-2.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-2.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-3.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-3.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-5.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-6.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-7.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-7.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-8.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-5.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-9.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-9.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+
+            </div>
+            <!-- Column 2 -->
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <a href="assets/img/portrait-10.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-10.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-11.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-11.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-12.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-12.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-6.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-13.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-13.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-7.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-7.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-14.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-14.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-15.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-15.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-8.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-16.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-16.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-17.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-17.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-9.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-9.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-18.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-18.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-10.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-10.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <a href="assets/img/ls-11.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-19.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-19.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-20.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-20.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-12.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-12.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-21.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-21.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-22.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-22.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-13.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-13.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-23.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-23.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-24.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-24.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-14.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-14.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-25.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-25.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-26.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-26.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/ls-15.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/ls-15.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+                <a href="assets/img/portrait-27.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                    <img src="assets/img/portrait-27.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+                </a>
+
+            </div>
+
+
+
+
+        </div>
+        <!-- Gallery -->
+
         <!-- Footer-->
         <footer>
+
         </footer>
     </div>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/imgpopup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
 </body>
 
 </html>
