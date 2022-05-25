@@ -18,12 +18,12 @@
 body {
     font-family: objectivity;
     color: white;
-    background-color: #D3D3D3;
+    background-color: #c2bdbd;
 }
 
 #mainNav {
     padding-top: 45px;
-    padding-left: 35px;
+    padding-left: 10px;
 }
 
 .navbar {
