@@ -11,6 +11,12 @@
     src: url(../assets/font/Objectivity/Objectivity-Regular.otf);
 }
 
+@font-face {
+    font-family: objectivity-xtra-bold;
+    src: url(../assets/font/Objectivity/Objectivity-ExtraBold.otf);
+}
+
+
 * {
     border-radius: 0 !important;
 }
@@ -132,4 +138,27 @@ a:hover {
 
 }
 
-.carousel-item {}
+#statement {
+    font-size: 13px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.1;
+    color: rgb(221, 221, 221);
+    margin-top: 100px;
+}
+
+.about-main {
+    font-size: 13px;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    margin-top: 110px;
+}
+
+#director-tag {
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 27px;
+    font-family: objectivity-xtra-bold;
+}
